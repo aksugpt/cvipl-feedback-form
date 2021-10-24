@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="csshake.min.css">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <div id="slide">
+        <div id="toggle" class="text-center text-white animate__animated animate__backInUp shake-opacity">Feedback Form</div>
+        <form id="form" class="form bg-white">
+            <h2>Feedback Form</h2>
+            <div class="form-control">
+                <label for="username">First Name*</label>
+                <input type="text" id="firstname" placeholder="Enter Firstname">
+                <small class="text-center">Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Last Name*</label>
+                <input type="text" id="lastname" placeholder="Enter Lastname">
+                <small class="text-center">Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email*</label>
+                <input type="text" id="email" placeholder="Enter email">
+                <small class="text-center">Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Phone*</label>
+                <input type="tel" id="phone" placeholder="Enter phone number">
+                <small class="text-center">Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="textarea">Reviews*</label>
+                <textarea type="textarea" id="textarea" rows="2" cols="31" placeholder="Write Your Reviews"></textarea>
+                <small class="text-center">Error Message</small>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
